@@ -1,0 +1,55 @@
+﻿body {
+    background: url(../images/neko.jpg) no-repeat fixed center top;
+}
+
+.box {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background-color: #3f3f49;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+p:nth-of-type(2){
+    display: none;
+    position: absolute;
+}
+
+.box p {
+    padding-left: 30px;
+}
+
+.box:hover:nth-of-type(1) {
+    width: 350px;
+}
+
+.box:hover:nth-of-type(2) {
+    width: 480px;
+}
+
+.box:hover:nth-of-type(3){
+    width: 370px;
+}
+
+.box:hover:nth-of-type(4) {
+    width: 1238px;
+    height: 1087px;
+    color: #000;
+    background: url(../images/img.png) no-repeat scroll center top;
+}
+
+.box:hover p:nth-of-type(1) {
+    display: none;
+}
+
+.box:hover p:nth-of-type(2) {
+    display: block;
+}
